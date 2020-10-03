@@ -1,0 +1,389 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.header2{
+    background-image: url(../landingpage-cmp/image/header2.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.header3{
+    background-image: url(../landingpage-cmp/image/header3.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.header4{
+    background-image: url(../landingpage-cmp/image/header4.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.header5{
+    background-image: url(../landingpage-cmp/image/header5.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.header6{
+    background-image: url(../landingpage-cmp/image/header6.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.btn-close,.btn-bars{
+    display: none;
+}
+
+.nav-bar{
+    padding-top: 40px;
+    display: flex;
+}
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul {
+    display: flex;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+}
+.nav-links ul li{
+    list-style: none;
+    width: 170px;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+    transition: .5s;
+}
+.sdfg{
+    width: 300px !important;
+}
+.title{
+    color: #ED6A47;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.aaaa div{
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.x-x-x{
+    font-weight: 600;
+}
+.cvb{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.bottom{
+    background-color:#333333 ;
+}
+.nbxxx{
+    margin-left: 10px;
+    padding: 30px;
+}
+.nbxxx a{
+    color: white;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+.aaaa a{
+    color: red;
+    text-decoration: underline;
+}
+.about-us{
+    background-image: url(../landingpage-cmp/image/about.png);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader1{
+    background-image: url(../landingpage-cmp/image/image1.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader2{
+    background-image: url(../landingpage-cmp/image/image2.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader3{
+    background-image: url(../landingpage-cmp/image/image3.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader4{
+    background-image: url(../landingpage-cmp/image/image4.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader5{
+    background-image: url(../landingpage-cmp/image/image5.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader6{
+    background-image: url(../landingpage-cmp/image/image6.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader7{
+    background-image: url(../landingpage-cmp/image/image7.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader8{
+    background-image: url(../landingpage-cmp/image/image8.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader9{
+    background-image: url(../landingpage-cmp/image/image9.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader10{
+    background-image: url(../landingpage-cmp/image/image10.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader11{
+    background-image: url(../landingpage-cmp/image/image11.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader12{
+    background-image: url(../landingpage-cmp/image/image12.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader13{
+    background-image: url(../landingpage-cmp/image/cccccc.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.itemHeader14{
+    background-image: url(../landingpage-cmp/image/zzzz.svg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.xxx2{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 50px;
+    color: white;
+    font-weight: 600;
+}
+.xxx12{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 50px;
+    font-weight: 600;
+    color: red;
+    font-size: 30px;
+}
+@media (max-width:700px)
+{
+    .vertical{
+        display: none;
+    }
+    .btn-bars{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .btn-bars .fas{
+       margin:10px;
+       color: #fff;
+       font-size: 30px;
+    }
+    .nav-bar{
+        display: unset;
+    }
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background-color: #ccc;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 3;
+        transition: 0.7s;
+        display: unset;
+    }
+    .nav-links ul{
+        display: unset;
+    }
+    .nav-links ul li a{
+        display: block;
+    }
+    .nav-links ul li {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .btn-close .fas{
+        padding: 10px 15px;
+        font-size: 30px;
+        font-weight: 800;
+        padding-bottom: 0;
+    }
+    .btn-close{
+        display: block;
+    }
+    .nav-logo{
+        padding-top:20px;
+    }
+    .sdfg{
+        width: 200px !important;
+    }
+    .nbxxx{
+        margin-left: 0;
+        text-align: center;
+    }
+    .ccc{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .header2 ,.header3,.header4,.header5{
+        height: 80vh;
+        margin-bottom: 0;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .cvb{
+        margin-left: 0;
+        text-align: center;
+    }
+    .nbxxx{
+        margin-left: 0;
+        text-align: center;
+    }
+    .nbxxx a{
+        margin: 0 7px;
+        font-size: 13px;
+    }
+    .ccc{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .itemHeader1,.itemHeader2,.itemHeader3,.itemHeader4,.itemHeader5,.itemHeader6,.itemHeader7,.itemHeader8,.itemHeader9,.itemHeader10,.itemHeader11,.itemHeader12,.itemHeader13itemHeader14{
+        height: 80vh;
+        background-position: center;
+    }
+}

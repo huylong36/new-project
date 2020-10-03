@@ -1,0 +1,357 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.header{
+    background-image: url(../landingpage-cmp/image/header.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    position: relative;
+}
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bar div{
+    width: 200px;
+    text-align: center;
+}
+.menu-bar a{
+    font-size: 13px;
+    color: black;
+    width: 100px;
+}
+.title-page{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 17px;
+    left: 35%;
+    padding-bottom: 30px;
+}
+.upperKey{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.about-us{
+    margin-top:100px ;
+    background-image: url(../landingpage-cmp/image/about-us.png);
+    background-position: center;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ab-us a{
+   color: white;
+   font-size: 50px;
+   text-decoration: underline;
+}
+.groundended{
+    text-align: center;
+    margin: 40px 0;
+}
+.textOurModel{
+    margin-left: 70px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+}
+.titleOurModel{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.titleOurModel::after{
+    content: '';
+    background: red;
+    width: 110px;
+    height: 3px;
+}
+.text-content div{
+    font-size: 20px;
+}
+.leadership{
+    background-image: url(../landingpage-cmp/image/leadership.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.textLeadership{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border-top-left-radius: 50px;
+}
+.xxxxx .image img{
+    width: 100%;
+}
+.abc{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.aaaa{
+    margin: 40px 0;
+    margin-left: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.aaaa::after{
+    content: '';
+    background: red;
+    width: 170px;
+    height: 3px;
+}
+.abc div a{
+    color: black;
+    text-decoration: underline;
+}
+.ccc{
+    margin: 20px 0;
+}
+.management{
+    background-image: url(../landingpage-cmp/image/manager.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px;
+}
+.biblical{
+    background-image: url(../landingpage-cmp/image/biblical.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px;
+}
+.health{
+    background-image: url(../landingpage-cmp/image/heatlh.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px;
+}
+.vvvv{
+    padding-top: 40px;
+    text-align: center;
+}
+.nnnn{
+    background-color: red;
+    padding: 0 5px;
+}  
+.nnnn img{
+    width: 100%;
+}
+.zxc{
+    margin: auto;
+}
+.mn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.mn a{
+   color: black;
+   text-decoration: underline;
+}
+.international{
+    background-image: url(../landingpage-cmp/image/international.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px;
+}
+.cvb{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.bottom{
+    background-color:#333333 ;
+}
+.nbxxx{
+    margin-left: 10px;
+    padding: 30px;
+}
+.nbxxx a{
+    color: white;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+.btn-close,.btn-bars{
+    display: none;
+}
+
+.nav-bar{
+    padding-top: 40px;
+    display: flex;
+}
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul {
+    display: flex;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+}
+.nav-links ul li{
+    list-style: none;
+    width: 170px;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+    transition: .5s;
+}
+.sdfg{
+    width: 300px !important;
+}
+@media (max-width:700px)
+{
+    .vertical{
+        display: none;
+    }
+    .btn-bars{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .btn-bars .fas{
+       margin:10px;
+       color: #fff;
+       font-size: 30px;
+    }
+    .nav-bar{
+        display: unset;
+    }
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background-color: #ccc;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 3;
+        transition: 0.7s;
+        display: unset;
+    }
+    .nav-links ul{
+        display: unset;
+    }
+    .nav-links ul li a{
+        display: block;
+    }
+    .nav-links ul li {
+        width: 100%;
+    }
+    .btn-close .fas{
+        padding: 10px 15px;
+        font-size: 30px;
+        font-weight: 800;
+        padding-bottom: 0;
+    }
+    .btn-close{
+        display: block;
+    }
+    .nav-logo{
+        padding-top:20px;
+    }
+    .sdfg{
+        width: 200px;
+    }
+    .groundended img{
+        width: 100%;
+    }
+    .upperKey{
+        font-size: 20px;
+    }
+    .title-page{
+        left: 0;
+        text-align: center;
+        padding: 0 5px;
+        padding-bottom: 10px;
+    }
+    .about-us{
+        margin-top: 30px;
+    }
+    .ab-us a{
+        font-size: 30px;
+    }
+    .groundended{
+        margin-top: 30px 0;
+    }
+    .textOurModel{
+        margin: 0;
+        text-align: justify;
+        margin: 0 20px;
+    }
+    .textLeadership{
+        font-size: 18px;
+    }
+    .leadership ,.management,.international,.health,.biblical{
+        height: 50vh;
+    }
+    .aaaa{
+        font-size: 20px;
+        text-align: center;
+        margin-left:0px;
+        margin: 20px 0;
+    }
+    .aaaa::after{
+        margin: auto;
+    }
+    .cvb{
+        margin-left: 0;
+        text-align: center;
+    }
+    .nbxxx{
+        margin-left: 0;
+        text-align: center;
+    }
+    .nbxxx a{
+        margin: 0 7px;
+        font-size: 13px;
+    }
+    .ccc{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .header{
+        height: 80vh;
+    }
+}
