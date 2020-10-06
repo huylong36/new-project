@@ -2,7 +2,7 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 .header{
-    background-image: url(../landingpage-cmp/image/header.png);
+    background-image: url(image/header.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -40,7 +40,7 @@ body{
 }
 .about-us{
     margin-top:100px ;
-    background-image: url(../landingpage-cmp/image/about-us.png);
+    background-image: url(image/about-us.png);
     background-position: center;
     width: 100%;
     height: 55vh;
@@ -82,7 +82,7 @@ body{
     font-size: 20px;
 }
 .leadership{
-    background-image: url(../landingpage-cmp/image/leadership.png);
+    background-image: url(image/leadership.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -129,7 +129,7 @@ body{
     margin: 20px 0;
 }
 .management{
-    background-image: url(../landingpage-cmp/image/manager.png);
+    background-image: url(image/manager.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -138,7 +138,7 @@ body{
     margin-top: 30px;
 }
 .biblical{
-    background-image: url(../landingpage-cmp/image/biblical.png);
+    background-image: url(image/biblical.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -147,7 +147,7 @@ body{
     margin-top: 30px;
 }
 .health{
-    background-image: url(../landingpage-cmp/image/heatlh.png);
+    background-image: url(image/heatlh.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -178,7 +178,7 @@ body{
    text-decoration: underline;
 }
 .international{
-    background-image: url(../landingpage-cmp/image/international.png);
+    background-image: url(image/international.png);
     width: 100%;
     height: 70vh;
     background-size: cover;

@@ -2,7 +2,7 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 .header2{
-    background-image: url(/image/header2.png);
+    background-image: url(image/header2.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -12,7 +12,7 @@ body{
     margin-bottom: 80px;
 }
 .header3{
-    background-image: url(/image/header3.png);
+    background-image: url(image/header3.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -22,7 +22,7 @@ body{
     margin-bottom: 80px;
 }
 .header4{
-    background-image: url(/image/header4.png);
+    background-image: url(image/header4.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -32,7 +32,7 @@ body{
     margin-bottom: 80px;
 }
 .header5{
-    background-image: url(/image/header5.png);
+    background-image: url(image/header5.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -42,7 +42,7 @@ body{
     margin-bottom: 80px;
 }
 .header6{
-    background-image: url(/image/header6.png);
+    background-image: url(image/header6.png);
     width: 100%;
     height: 150vh;
     background-position: center;
@@ -123,7 +123,7 @@ body{
     text-decoration: underline;
 }
 .about-us{
-    background-image: url(/image/about.png);
+    background-image: url(image/about.png);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -133,7 +133,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader1{
-    background-image: url(/image/image1.svg);
+    background-image: url(image/image1.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -143,7 +143,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader2{
-    background-image: url(/image/image2.svg);
+    background-image: url(image/image2.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -153,7 +153,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader3{
-    background-image: url(/image/image3.svg);
+    background-image: url(image/image3.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -163,7 +163,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader4{
-    background-image: url(/image/image4.svg);
+    background-image: url(image/image4.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -173,7 +173,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader5{
-    background-image: url(/image/image5.svg);
+    background-image: url(image/image5.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -183,7 +183,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader6{
-    background-image: url(/image/image6.svg);
+    background-image: url(image/image6.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -193,7 +193,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader7{
-    background-image: url(/image/image7.svg);
+    background-image: url(image/image7.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -203,7 +203,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader8{
-    background-image: url(/image/image8.svg);
+    background-image: url(image/image8.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -213,7 +213,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader9{
-    background-image: url(/image/image9.svg);
+    background-image: url(image/image9.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -223,7 +223,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader10{
-    background-image: url(/image/image10.svg);
+    background-image: url(image/image10.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -233,7 +233,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader11{
-    background-image: url(/image/image11.svg);
+    background-image: url(image/image11.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -243,7 +243,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader12{
-    background-image: url(/image/image12.svg);
+    background-image: url(image/image12.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -253,7 +253,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader13{
-    background-image: url(/image/cccccc.svg);
+    background-image: url(image/cccccc.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
@@ -263,7 +263,7 @@ body{
     margin-bottom: 80px;
 }
 .itemHeader14{
-    background-image: url(/image/zzzz.svg);
+    background-image: url(image/zzzz.svg);
     width: 100%;
     height: 110vh;
     background-position: center;
