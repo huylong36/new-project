@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
     <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./style.css" />
     <title>OUR MODEL</title>
 </head>
@@ -23,12 +24,30 @@
                         <i class="fas fa-times" onclick="closeMenu()"></i>
                     </div>
                     <ul>
-                        <li><a href="#" style="color: red;">OUR MODEL</a></li>
-                        <li><a href="#leadership"> LEADERSHIP PROGRAMMES</a></li>
-                        <li><a href="#management">MANAGEMENT PROGRAMMES</a></li>
-                        <li><a href="#biblical">BIBLICAL STUDIES</a></li>
-                        <li><a href="#health">HEALTH AND NURSING STUDIES</a></li>
-                        <li class="sdfg"><a href="#international">INTERNATIONAL ENGLISH COMMUNICATION PROGRAMME</a></li>
+                        <li>
+                            <div> <a href="index.html">OUR MODEL</a></div>
+                        </li>
+                        <li>
+                            <div onclick="scrollToElement('html,body', '.xxxxx', 0)"> <a href="#"> LEADERSHIP
+                                    PROGRAMMES</a> </div>
+                        </li>
+                        <li>
+                            <div onclick="scrollToElement('html,body', '#management', 0)"> <a href="#">MANAGEMENT
+                                    PROGRAMMES</a> </div>
+                        </li>
+                        <li>
+                            <div onclick="scrollToElement('html,body', '#biblical', 0)"> <a href="#">BIBLICAL
+                                    STUDIES</a> </div>
+                        </li>
+                        <li>
+                            <div onclick="scrollToElement('html,body', '#health', 0)"> <a href="#">HEALTH AND NURSING
+                                    STUDIES</a> </div>
+                        </li>
+                        <li class="sdfg">
+                            <div onclick="scrollToElement('html,body', '#international', 0)"> <a href="#">INTERNATIONAL
+                                    ENGLISH COMMUNICATION PROGRAMME</a> </div>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -47,15 +66,15 @@
         </div>
     </div>
     </div>
-    <div class="about-us">
-        <div class="container ab">
-            <a href="about-us.html"></a>
-            <div class="ab-us">
-                ABOUT-US
+    <a class="aba" href="about-us.html">
+        <div class="about-us">
+            <div class="container ab">
+                <div class="ab-us">
+                    ABOUT-US
+                </div>
             </div>
-
         </div>
-    </div>
+    </a>
     <div class="groundended">
         <img src="image/grounded.png" alt="">
     </div>
@@ -67,22 +86,24 @@
             <div>The Wordington Model is the result of many years of extensive research. Our quest on a model that
                 would make education meaningful enabled us to think of ways and means to generate knowledge
                 from lived experiences. </div> <br>
+            <button class="btn-more" id="more" onclick="btnShowText()">more <i class="fa fa-angle-double-down"></i></button>
+            <div id="hideText">
+                <div> As the model speaks, wisdom prompts to acquire necessary knowledge, unlike the traditional
+                    educational approach of wisdom controlled by knowledge. This means your professional experience
+                    has the potential to generate knowledge, and at the same time decide on what knowledge needs to
+                    be acquired. </div> <br> <br>
 
-            <div> As the model speaks, wisdom prompts to acquire necessary knowledge, unlike the traditional
-                educational approach of wisdom controlled by knowledge. This means your professional experience
-                has the potential to generate knowledge, and at the same time decide on what knowledge needs to
-                be acquired. </div> <br> <br>
-
-            <div>The new ‘self’ formed from the combination of wisdom and knowledge help individuals to put it into
-                action, which is the application into professional context.</div>
-            <div>The model provides continuous opportunity to reflect on the applied professional situation so as to
-                generate knowledge from it. The knowledge thus created provides enrichment to the self, and new
-                knowledge for the seekers.</div> <br>
-            <div>The whole process of learning and knowledge creation is framed in and enriched with an open
-                qualitative approach (Grounded Theory), enriched with case studies and integrated with constant
-                application.</div>
-            <div>Wordington envisages its candidates to develop themselves as ambassadors of knowledge, through
-                this model.</div>
+                <div>The new ‘self’ formed from the combination of wisdom and knowledge help individuals to put it into
+                    action, which is the application into professional context.</div>
+                <div>The model provides continuous opportunity to reflect on the applied professional situation so as to
+                    generate knowledge from it. The knowledge thus created provides enrichment to the self, and new
+                    knowledge for the seekers.</div> <br>
+                <div>The whole process of learning and knowledge creation is framed in and enriched with an open
+                    qualitative approach (Grounded Theory), enriched with case studies and integrated with constant
+                    application.</div>
+                <div>Wordington envisages its candidates to develop themselves as ambassadors of knowledge, through
+                    this model.</div>
+            </div>
         </div>
     </div>
     <div class="leadership">
@@ -97,7 +118,7 @@
         <div class="container">
             <div class="abc">
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-leaderShip1.html">
+                    <a href="wordington-leadership-certificate-programme.html">
                         <div class="image">
                             <img src="image/image1.svg" alt="">
                         </div>
@@ -107,7 +128,7 @@
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-leaderShip2.html">
+                    <a href="wordington-diploma-in-eadership-programme.html">
                         <div class="image">
                             <img src="image/image2.svg" alt="">
                         </div>
@@ -117,7 +138,7 @@
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-leaderShip3.html">
+                    <a href="wordington-master-of-leadership-programme.html">
                         <div class="image">
                             <img src="image/image3.svg" alt="">
                         </div>
@@ -127,7 +148,7 @@
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-leaderShip4.html">
+                    <a href="wordington-doctorate-programme-in-leadership.html">
                         <div class="image">
                             <img src="image/image4.svg" alt="">
                         </div>
@@ -151,7 +172,7 @@
         <div class="container">
             <div class="abc">
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-management1.html">
+                    <a href="wordington-certificate-programme-in-human-resource-management.html">
                         <div class="image">
                             <img src="image/image5.svg" alt="">
                         </div>
@@ -162,36 +183,33 @@
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-management2.html">
+                    <a href="wordington-diploma-in-human-resource-management-programme.html">
                         <div class="image">
                             <img src="image/image6.svg" alt="">
                         </div>
                         <div>
-                            Wordington Diploma in Human
-                            Resource Management Programme
+                            Wordington Diploma in Human Resource Management Programme
                         </div>
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-management3.html">
+                    <a href="wordington-master-of-human-resource-management-programme.html">
                         <div class="image">
                             <img src="image/image7.svg" alt="">
                         </div>
                         <div>
-                            Wordington Master of Human Resource
-                            Management Programme
+                            Wordington Master of Human Resource Management Programme
                         </div>
                     </a>
 
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-management4.html">
+                    <a href="wordington-doctorate-programme-in-human-resource-management.html">
                         <div class="image">
                             <img src="image/image8.svg" alt="">
                         </div>
                         <div>
-                            Wordington Doctorate Programme in Human
-                            Resource Management.
+                            Wordington Doctorate Programme in Human Resource Management.
                         </div>
                     </a>
                 </div>
@@ -210,18 +228,17 @@
         <div class="container">
             <div class="abc">
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-biblical1.html">
+                    <a href="wordington-certificate-programme-in-biblical-studies.html">
                         <div class="image">
                             <img src="image/image9.svg" alt="">
                         </div>
                         <div>
-                            Wordington Certificate Programme
-                            in Biblical Studies
+                            Wordington Certificate Programme in Biblical Studies
                         </div>
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-biblical2.html">
+                    <a href="wordington-diploma-in-biblical-leadership.html">
                         <div class="image">
                             <img src="image/image10.svg" alt="">
                         </div>
@@ -231,41 +248,40 @@
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-biblical3.html">
+                    <a href="wordington-graduate-programme-in-biblical-studies.html">
                         <div class="image">
                             <img src="image/image11.svg" alt="">
                         </div>
                         <div>
-                            Wordington Graduate Programme in Biblical
-                            studies
+                            Wordington Graduate Programme in Biblical studies
 
                         </div>
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-12 col-md-6 ccc">
-                    <a href="item-biblical4.html">
+                    <a href="wordington-doctorate-programme-in-biblical-studies.html">
                         <div class="image">
                             <img src="image/image12.svg" alt="">
                         </div>
                         <div>
-                            Wordington Doctorate Programme in
-                            Biblical studies
-
+                            Wordington Doctorate Programme in Biblical studies
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="health" id="health">
-        <div class="textLeadership">
-            Wordington Health and Nursing Programmes
+    <a href="wordington-health-and-nursing-programmes.html">
+        <div class="health" id="health">
+            <div class="textLeadership">
+                Wordington Health and Nursing Programmes
+            </div>
         </div>
-    </div>
+    </a>
     <div class="vvvv">
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-8 zxc">
-                <a href="item-health.html">
+                <a href="wordington-health-and-nursing-programmes.html">
                     <div class="nnnn">
                         <img src="image/cccccc.svg" alt="">
                     </div>
@@ -277,15 +293,17 @@
             </div>
         </div>
     </div>
-    <div class="international" id="international">
-        <div class="textLeadership">
-            Wordington International English Communication Programme
+    <a href="wordington-international-english-communication-programme.html">
+        <div class="international" id="international">
+            <div class="textLeadership">
+                Wordington International English Communication Programme
+            </div>
         </div>
-    </div>
+    </a>
     <div class="vvvv">
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-8 zxc">
-                <a href="item-international.html">
+                <a href="wordington-international-english-communication-programme.html">
                     <div class="nnnn">
                         <img src="image/zzzz.svg" alt="">
                     </div>
@@ -317,5 +335,30 @@
     }
     function closeMenu() {
         show.style.right = "-250px";
+    }
+    function scrollToElement(parentSelector, targetSelector, offsetTop) {
+        $(parentSelector).animate({
+            scrollTop: $(targetSelector).offset().top - (offsetTop ? offsetTop : 0)
+        }, 400, function () {
+        });
+    }
+    function scrollToElementNew(parentSelector, targetSelector, offsetTop) {
+        $(parentSelector).animate({
+            scrollTop: $(targetSelector).offset().top - (offsetTop ? offsetTop : 0) - $(targetSelector).height() / 5
+        }, 300, function () {
+        });
+    }
+    function btnShowText() {
+      var showText = document.getElementById('hideText');
+      var hideBtn = document.getElementById('more');
+        if(showText.style.display == 'block'){
+            showText.style.display = 'none';
+            hideBtn.innerHTML = 'more';
+            hideBtn.style.color = 'blue';
+        }else{
+            hideBtn.style.color = 'blue';
+            hideBtn.innerText = 'hide ';
+            showText.style.display = 'block';
+        }
     }
 </script>

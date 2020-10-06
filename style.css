@@ -1,6 +1,9 @@
 body{
     font-family: 'Libre Baskerville', serif;
 }
+button {
+    outline: none !important;
+}
 .header{
     background-image: url(image/header.png);
     width: 100%;
@@ -51,10 +54,13 @@ body{
     font-weight: 600;
 }
 
-.ab-us a{
+.aba{
    color: white;
    font-size: 50px;
    text-decoration: underline;
+}
+.aba:hover{
+   color: white;
 }
 .groundended{
     text-align: center;
@@ -79,7 +85,7 @@ body{
     height: 3px;
 }
 .text-content div{
-    font-size: 20px;
+    font-size: 17px;
 }
 .leadership{
     background-image: url(image/leadership.png);
@@ -239,6 +245,9 @@ body{
 .sdfg{
     width: 300px !important;
 }
+.btn-more{
+    display: none;
+}
 @media (max-width:700px)
 {
     .vertical{
@@ -275,6 +284,10 @@ body{
     }
     .nav-links ul li a{
         display: block;
+        text-decoration: none;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 10px;
     }
     .nav-links ul li {
         width: 100%;
@@ -353,5 +366,20 @@ body{
     }
     .header{
         height: 80vh;
+    }
+    .btn-more{
+        display: block;
+        text-align: center;
+        margin: auto;
+        outline: none;
+        border: 0;
+        background: transparent;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        color: blue;
+    }
+    #hideText{
+        display: none;
+        transition: .5s ;
     }
 }

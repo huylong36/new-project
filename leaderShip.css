@@ -96,7 +96,6 @@ body{
 }
 .aaaa div{
     margin: 20px 0;
-    letter-spacing: 1px;
 }
 .x-x-x{
     font-weight: 600;
@@ -331,6 +330,7 @@ body{
     }
     .nav-links ul li a{
         display: block;
+        text-decoration: none;
     }
     .nav-links ul li {
         width: 100%;
