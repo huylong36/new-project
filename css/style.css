@@ -88,10 +88,10 @@
     height: 200px;
 }
 .groundended img:hover{
-    transform: scale(1.4);
-    z-index: 5;
+    transform: scale(1.9);
     background-color: white;
     transition: .6s;
+    margin: 100px 0;
 }
 .btn-more{
     display: none;
@@ -274,5 +274,9 @@
     }
     .item-category{
         padding: 5px;
+    }
+    .groundended img:hover{
+        transform: scale(1.1);
+        margin: 20px 0;
     }
 }
