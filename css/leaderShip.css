@@ -84,9 +84,6 @@ body{
     width: 100%;
     transition: .5s;
 }
-.sdfg{
-    width: 300px !important;
-}
 .title{
     color: #ED6A47;
     font-weight: 600;
@@ -313,11 +310,16 @@ body{
     .nav-bar{
         display: unset;
     }
+    .nav-link a{
+        background: #32DBC6;
+        padding: 7px 15px;
+        color: white;
+        border-radius: 5px;
+    }
     .nav-links{
         height: 100vh;
         width: 200px;
         background-color: #ccc;
-        position: fixed;
         top: 0;
         right: -200px;
         text-align: left;
