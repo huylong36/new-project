@@ -12,10 +12,12 @@
     <script src="../js/font.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/leaderShip.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
-    <div class="header wow bounceInDown">
+    <div data-wow-delay="0.2s"  class="header wow zoomIn">
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-links" id="nav-link">
@@ -24,7 +26,7 @@
                     </div>
                     <ul>
                         <li class="white-space">
-                            <div onclick="scrollToElement('html,body', '.content', 0)"> <a href="#"> LOUR MODEL</a> </div>
+                            <div onclick="scrollToElement('html,body', '.content', 0)"> <a href="#"> OUR MODEL</a> </div>
                         </li>
                         <li>
                             <div onclick="scrollToElement('html,body', '.leadership-programmes', 0)"> <a href="#"> LEADERSHIP
@@ -54,14 +56,14 @@
             </div>
             <div class="text">
                 <div data-wow-delay="0s" class="introduce wow bounceInDown">
-                    <div class="">Wordington Centre</div>
+                    <div class="textUp">Wordington Centre</div>
                     for Leadership and Management Development
                 </div>
             </div>
         </div>
     </div>
  <a href="about-us.html">
-        <div data-wow-delay="0.1s" class="aboutUs wow fadeInUp">
+        <div data-wow-delay="0.1s" class="aboutUs wow bounceInDown">
             <div>
                 ABOUT-US
             </div>
@@ -272,12 +274,12 @@
         </a>
         <div class="container item-alone">
             <div data-wow-delay="0.2s" class="col-xs-12 col-sm-12 col-md-8 item-category wow fadeInUp">
-                <a href="wordington-graduate-programme-in-biblical-studies.html">
+                <a href="wordington-health-and-nursing-programmes.html">
                     <div class="image-1">
                         <img src="../image/cccccc.svg" alt="">
                     </div>
                     <div>
-                        Wordington Graduate Programme in Biblical studies
+                        Wordington Certificate Programme in Nursing Leadership
                     </div>
                 </a>
             </div>
@@ -293,19 +295,16 @@
         </a>
         <div class="container item-alone">
             <div data-wow-delay="0.4s" class="col-xs-12 col-sm-12 col-md-8 item-category wow fadeInUp">
-                <a href="wordington-graduate-programme-in-biblical-studies.html">
+                <a href="wordington-international-english-communication-programme.html">
                     <div class="image-1">
                         <img src="../image/zzzz.svg" alt="">
                     </div>
                     <div>
-                        Wordington Graduate Programme in Biblical studies
+                        Wordington Certificate Programme in International English Writing Skills
                     </div>
                 </a>
             </div>
         </div>
-    </div>
-    <div class="cvb">
-        <div>Bottom of the last page: Wordington Centre for Leadership and Management Development</div>
     </div>
     <div class="bottom">
         <div class="nbxxx">
@@ -328,14 +327,14 @@
     function scrollToElement(parentSelector, targetSelector, offsetTop) {
         $(parentSelector).animate({
             scrollTop: $(targetSelector).offset().top - (offsetTop ? offsetTop : 0)
-        }, 400, function () {
+        }, 1000, function () {
         });
          closeMenu();
     }
     function scrollToElementNew(parentSelector, targetSelector, offsetTop) {
         $(parentSelector).animate({
             scrollTop: $(targetSelector).offset().top - (offsetTop ? offsetTop : 0) - $(targetSelector).height() / 5
-        }, 300, function () {
+        }, 500, function () {
         });
     }
     function btnShowText() {

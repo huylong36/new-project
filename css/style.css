@@ -1,3 +1,6 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
 .header{
     background-image: url(../image/header.png);
     background-position:center;
@@ -5,6 +8,8 @@
     overflow-x: hidden;
     position: relative;
     height: 100vh;
+    background-repeat: repeat-y;
+    top: 0;
 }
 .nav-bar{
     padding-top: 40px;
@@ -52,9 +57,12 @@
     position: absolute;
     bottom: 0;
     color: white;
-    font-size: 17px;
+    font-size: 12px;
     padding-bottom: 30px;
     text-transform: uppercase;
+}
+.textUp{
+    font-size: 28px;
 }
 .text{
     display: flex;
