@@ -19,7 +19,7 @@
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-link" id="nav-link">
-                        <a href="index.html#item11">Home</a>
+                        <a href="#" onclick="goBack()">Home</a>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
     <div class="biblical">
         <div class="container">
             <div class="aaaa">
-                <div class="title">Master of Leadership </div>
+                <div class="title"> Master of Christian Leadership </div>
                 <div>
                     The Wordington Master of Christian Leadership programme is designed to help candidates to reflect on their own personal leadership capabilities, systematically record those and recycle using Biblical knowledge. 
                 </div>
@@ -87,4 +87,7 @@
         show.style.right = "-250px";
     }
     new WOW().init();
+    function goBack() {
+       window.history.back();
+    }
 </script>

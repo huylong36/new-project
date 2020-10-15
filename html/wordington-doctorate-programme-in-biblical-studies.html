@@ -20,7 +20,7 @@
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-link" id="nav-link">
-                        <a href="index.html#item12">Home</a>
+                        <a href="#" onclick="goBack()">Home</a>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
     <div class="biblical">
         <div class="container">
             <div class="aaaa">
-                <div class="title">Doctorate in Leadership </div>
+                <div class="title">Doctorate in Christian Leadership </div>
                 <div>
                     Wordington Doctorate is a highly specialised (2-5 years duration)
                     programme designed for established Christian leaders.
@@ -72,4 +72,7 @@
         show.style.right = "-250px";
     }
     new WOW().init();
+    function goBack() {
+       window.history.back();
+    }
 </script>

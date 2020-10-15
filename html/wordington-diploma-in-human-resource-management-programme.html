@@ -19,7 +19,7 @@
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-link" id="nav-link">
-                        <a href="index.html#item6">Home</a>
+                        <a href="#" onclick="goBack()">Home</a>
                 </div>
             </div>
         </div>
@@ -77,4 +77,7 @@
         show.style.right = "-250px";
     }
     new WOW().init();
+    function goBack() {
+       window.history.back();
+    }
 </script>
