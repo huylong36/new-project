@@ -5,10 +5,18 @@ body{
     background-image: url(../image/header.png);
     background-position:center;
     background-size: cover;
-    overflow-x: hidden;
-    position: relative;
+    /* position: relative; */
     height: 100vh;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    animation: zoomin 7s 1;
+}
+@keyframes zoomin {
+    0% {
+        -webkit-transform: scaleY(2)
+    }
+    100% {
+        -webkit-transform: scaleY(1)
+    }
 }
 .nav-bar{
     padding-top: 40px;
@@ -26,7 +34,7 @@ body{
 }
 .nav-links ul li{
     list-style: none;
-    padding: 5px 10px ;
+    padding: 5px 7px ;
 }
 .nav-links ul li a{
     color: black;
@@ -214,6 +222,27 @@ body{
 }
 @media (max-width:700px)
 {
+    .header{
+        animation: unset !important;
+    }
+    .textUp{
+        font-size: 22px;
+    }
+    .introduce{
+        font-size: 10px;
+    }
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background-color: #ccc;
+        position: absolute;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 3;
+        transition: 0.7s;
+        display: none;
+    }
     .btn-bars{
         display: block;
         position: absolute;
@@ -228,18 +257,7 @@ body{
      .nav-bar{
          display: unset;
      }
-     .nav-links{
-         height: 100vh;
-         width: 200px;
-         background-color: #ccc;
-         position: absolute;
-         top: 0;
-         right: -200px;
-         text-align: left;
-         z-index: 3;
-         transition: 0.7s;
-         display: unset;
-     }
+     
      .nav-links ul{
          display: unset;
      }

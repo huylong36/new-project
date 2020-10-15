@@ -18,14 +18,14 @@
 </head>
 <body>
     <div style="height: 1px;"></div>
-    <div data-wow-delay="0.2s"  class="header wow bounceIn">
+    <div data-wow-delay="0.2s"  class="header ">
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-links" id="nav-link">
                     <div class="btn-close">
                         <i class="fas fa-times" onclick="closeMenu()"></i>
                     </div>
-                    <ul>
+                    <ul id="closeNavbar">
                         <li class="white-space">
                             <div onclick="scrollToElement('html,body', '.content', 0)"> <a href="#"> OUR MODEL</a> </div>
                         </li>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="text">
-                <div data-wow-delay="0s" class="introduce wow bounceInDown">
+                <div data-wow-delay="4s" class="introduce wow bounceInDown">
                     <div class="textUp">Wordington Centre</div>
                     for Leadership and Management Development
                 </div>
@@ -318,11 +318,16 @@
 </html>
 <script>
      show = document.getElementById("nav-link");
+     hide = document.getElementById("closeNavbar");
     function showMenu() {
         show.style.right = "0";
+        show.style.display = "block";
+        show.style.transition = "0.7s";
     }
     function closeMenu() {
         show.style.right = "-250px";
+        show.style.display = "none";
+        show.style.transition = "0.7s";
     }
     
     function scrollToElement(parentSelector, targetSelector, offsetTop) {
