@@ -18,13 +18,15 @@
 </head>
 <body>
     <div style="height: 1px;"></div>
-    <div data-wow-delay="0.2s"  class="header ">
-        <div class="container">
-            <div class="nav-bar">
-                <div class="nav-links" id="nav-link">
-                </div>
-                <div class="btn-bars">
-                    <i class="fas fa-bars" onclick="showMenu()"></i>
+    <div style="overflow: hidden;">
+        <div data-wow-delay="0.2s"  class="header">
+            <div class="container">
+                <div class="nav-bar">
+                    <div class="nav-links" id="nav-link">
+                    </div>
+                    <div class="btn-bars">
+                        <i class="fas fa-bars" onclick="showMenu()"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,8 +34,8 @@
     <div class="text">
         <div data-wow-delay="5s" class="introduce wow bounceInDown">
             <div class="textUp">Wordington Centre</div>
-            <div style="font-style: italic;text-transform: none;">
-                for
+            <div style="font-style: italic;text-transform: none;font-size: 20px;">
+                for <br>
             </div> 
             <div>
                 Leadership and Management Development
@@ -41,44 +43,34 @@
         </div>
     </div>
     <div>
-        <ul id="closeNavbar">
-            <div class="btn-close">
-                <i class="fas fa-times" onclick="closeMenu()"></i>
+        <div class="container">
+            <div id="closeNavbar">
+                <div class="btn-close">
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </div>
+                    <div onclick="scrollToElement('html,body', '.content', 0)"> <a href="#"> OUR MODEL</a> </div>
+                    <div onclick="scrollToElement('html,body', '.leadership-programmes', 0)"> <a href="#"> LEADERSHIP
+                            PROGRAMMES</a> </div>
+                     <div onclick="scrollToElement('html,body', '.managament-programmes', 0)"> <a href="#">MANAGEMENT
+                            PROGRAMMES</a> </div>
+                   <div onclick="scrollToElement('html,body', '.biblical-studies-programmes', 0)"> <a href="#">BIBLICAL
+                            STUDIES</a> </div>
+                     <div onclick="scrollToElement('html,body', '.healh-and-nursing-programmes', 0)"> <a href="#">HEALTH AND NURSING
+                            STUDIES</a> </div>
+                    <div onclick="scrollToElement('html,body', '.international', 0)"> <a href="#">INTERNATIONAL
+                            ENGLISH COMMUNICATION PROGRAMME</a> </div>
             </div>
-            <li class="white-space">
-                <div onclick="scrollToElement('html,body', '.content', 0)"> <a href="#"> OUR MODEL</a> </div>
-            </li>
-            <li>
-                <div onclick="scrollToElement('html,body', '.leadership-programmes', 0)"> <a href="#"> LEADERSHIP
-                        PROGRAMMES</a> </div>
-            </li>
-            <li>
-                <div onclick="scrollToElement('html,body', '.managament-programmes', 0)"> <a href="#">MANAGEMENT
-                        PROGRAMMES</a> </div>
-            </li>
-            <li class="white-space">
-                <div onclick="scrollToElement('html,body', '.biblical-studies-programmes', 0)"> <a href="#">BIBLICAL
-                        STUDIES</a> </div>
-            </li>
-            <li>
-                <div onclick="scrollToElement('html,body', '.healh-and-nursing-programmes', 0)"> <a href="#">HEALTH AND NURSING
-                        STUDIES</a> </div>
-            </li>
-            <li>
-                <div onclick="scrollToElement('html,body', '.international', 0)"> <a href="#">INTERNATIONAL
-                        ENGLISH COMMUNICATION PROGRAMME</a> </div>
-            </li>
-        </ul>
+        </div>
     </div>
  <a href="about-us.html">
         <div data-wow-delay="0.5s" class="aboutUs wow fadeInUp">
             <div>
-                ABOUT-US
+               about-us
             </div>
         </div>
     </a>
    <div class="groundended">
-        <img src="../image/grounded.png" alt="">
+        <img src="../image/grounded.svg" alt="">
     </div>
   <div class="content">
         <div class="text-content-left">
@@ -94,10 +86,10 @@
                     <div> As the model speaks, wisdom prompts to acquire necessary knowledge, unlike the traditional
                         educational approach of wisdom controlled by knowledge. This means your professional experience
                         has the potential to generate knowledge, and at the same time decide on what knowledge needs to
-                        be acquired. </div> <br> <br>
+                        be acquired. </div> <br> 
     
                     <div>The new ‘self’ formed from the combination of wisdom and knowledge help individuals to put it into
-                        action, which is the application into professional context.</div>
+                        action, which is the application into professional context.</div> <br>
                     <div>The model provides continuous opportunity to reflect on the applied professional situation so as to
                         generate knowledge from it. The knowledge thus created provides enrichment to the self, and new
                         knowledge for the seekers.</div> <br>
