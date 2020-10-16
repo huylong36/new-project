@@ -29,6 +29,15 @@ body{
     align-items: center;
     text-align: center;
 }
+#closeNavbar div{
+    width: 200px;
+}
+#closeNavbar div a{
+    color: black;
+}
+.xx1{
+    width: 270px !important;
+}
 #closeNavbar li a {
     color: black;
     font-size: 12px;
@@ -335,6 +344,11 @@ body{
     }
     #closeNavbar{
         display: none;
+        left: unset;
+    }
+    #closeNavbar div{
+        width: unset;
+        margin: 15px ;
     }
     .image-1{
         margin-top: 20px;
@@ -344,5 +358,8 @@ body{
     }
     .text .wow {
         animation-delay: 1s!important;
+    }
+    .xx1{
+        width: unset !important;
     }
 }
