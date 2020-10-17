@@ -246,13 +246,13 @@ body{
 @media (max-width:768px)
 {
     .header{
-        animation: unset !important;
+        /* animation: unset !important; */
     }
     .textUp{
         font-size: 22px;
     }
     .introduce{
-        font-size: 10px;
+        font-size: 18px;
     }
     #closeNavbar{
         width: 180px;
