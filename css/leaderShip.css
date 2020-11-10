@@ -58,6 +58,12 @@ body{
     margin-top: 40px;
     margin-bottom: 25px;
 }
+.nav-link a{
+    background: red;
+    padding: 7px 10px;
+    border-radius: 7px;
+    color: white;
+}
 /* .btn-close,.btn-bars{
     display: none;
 }
@@ -93,9 +99,8 @@ body{
 } */ */
 
 
-.aaaa div{
-    margin: 20px 0;
-}
+
+
 .x-x-x{
     font-weight: 600;
 }
@@ -116,9 +121,15 @@ body{
     text-decoration: underline;
     margin: 0 10px;
 }
+.aaaa{
+    text-align: justify;
+}
 .aaaa a{
     color: red;
     text-decoration: underline;
+}
+.aaaa div{
+    margin: 20px 0;
 }
 .about-us{
     background-image: url(../image/about.png);
@@ -295,6 +306,17 @@ body{
 }
 .biblical{
     font-size: 18px;
+}
+.backNow{
+    margin-top: 20px;
+}
+.backNow a{
+    color: red;
+    text-decoration: underline;
+}
+.emailWordington a{
+     color: red;
+     text-decoration: underline;
 }
 @media (max-width:700px)
 {

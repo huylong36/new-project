@@ -115,7 +115,6 @@ body{
 }
 .aboutUs div{
     color: white;
-    font-weight: 700;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -124,7 +123,8 @@ body{
     text-align: center;
 }
 .groundended img{
-    margin-top: 30px;
+    margin: 30px 0;
+
 }
 .groundended img:hover{
     transform: scale(2.57);
@@ -242,6 +242,12 @@ body{
     color: white;
     text-decoration: underline;
     margin: 0 10px;
+}
+.text-content{
+    text-align: justify;
+}
+.aaaa{
+    text-align: justify;
 }
 @media (max-width:768px)
 {
