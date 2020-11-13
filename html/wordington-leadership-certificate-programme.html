@@ -19,7 +19,7 @@
         <div class="container">
             <div class="nav-bar">
                 <div class="nav-link" id="nav-link">
-                        <a href="#" onclick="goBack()">Home</a>
+                        <a  href="#" onclick="goHome()">Home</a>
                 </div>
             </div>
         </div>
@@ -33,10 +33,10 @@
                 <div class="title">Certificate Programmes</div>
                 <div>
                     Wordington Leadership Certificate Programme is designed to develop and establish a strong foundation in selective knowledge, understanding and application of key leadership concepts. 
-                </div><br>
+                </div>
                 <div>
                     Wordington offers a range of Certificate programmes for you to advance in your leadership development. This programme is meant for beginners who are aiming to build and advance a leadership-oriented career. A few of the Certificate Programmes is listed below:
-                </div><br>
+                </div>
                 <div class="x-x-x">
                     Wordington Certificate in: <br> <br>
                     Fundamentals of Leadership. <br> <br>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="emailWordington"> Contact us for more information: <a href="mailto:admin@wordington.com.au">admin@wordington.com.au</a></div>
-            <div class="backNow" onclick="goBack()"><a href="#">Back</a></div><br>
+            <div class="backNow" onclick="goHome()"><a href="#">Back</a></div><br>
         </div>
     </div>
  
@@ -64,6 +64,7 @@
     </div>
 </body>
 </html>
+<script src="../js/goHome.js"></script>
 <script>
     show = document.getElementById("nav-link");
     function showMenu() {
@@ -73,7 +74,4 @@
         show.style.right = "-250px";
     }
     new WOW().init();
-    function goBack() {
-       window.history.back();
-    }
 </script>

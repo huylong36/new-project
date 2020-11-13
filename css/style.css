@@ -119,7 +119,7 @@ body{
     text-decoration: underline;
 }
 .groundended{
-    transition: .7s;
+    transition: transform .2s;
     text-align: center;
 }
 .groundended img{
